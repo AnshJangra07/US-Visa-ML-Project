@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Virtual environment
+visa/
+myenv/
+venv/
+.venv/
+.env
