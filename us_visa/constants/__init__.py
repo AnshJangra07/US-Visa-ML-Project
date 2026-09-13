@@ -2,18 +2,19 @@ import os
 from dotenv import load_dotenv
 from datetime import date
 load_dotenv()
-MongoDB_URL = os.getenv("MONGODB_URL")
-
-
 DATABASE_NAME = "US_VISA"
 
 COLLECTION_NAME = "VISA_DATA"
 
-MONGODB_URL_KEY = MongoDB_URL
+MONGODB_URL_KEY = "MONGODB_URL"
 
 PIPELINE_NAME : str = "usvisa"
 ARTIFACT_DIR : str = "artifact"
 
+TRAIN_FILE_NAME: str = "train.csv"
+TEST_FILE_NAME: str = "test.csv"
+
+FILE_NAME: str = "usvisa.csv"
 MODEL_FILE_NAME = "model.pkl"
 
 
