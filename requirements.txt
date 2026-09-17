@@ -19,10 +19,10 @@ neuro_mf
 boto3
 mypy-boto3-s3
 botocore
-fastapi==0.125.0
-starlette==0.50.0
+fastapi==0.124.4
+starlette==0.44.0
 pydantic==1.10.26
-uvicorn==0.52.4
+uvicorn==0.33.0
 jinja2
 python-multipart
 python-dotenv
